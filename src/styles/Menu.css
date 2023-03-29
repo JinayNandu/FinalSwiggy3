@@ -1,0 +1,71 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .menu-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .menu-card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .menu-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-card .counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .menu-card .counter button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .menu-card .counter p {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .menu-card .order-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
